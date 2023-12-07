@@ -20,11 +20,11 @@
 	<h2>수강 신청하기</h2>
 	<hr>
 	<form action="add.jsp">
-		<input type="checkbox" name="subject" value="kor"> 국어<br><br>
-		<input type="checkbox" name="subject" value="eng"> 영어<br><br>
-		<input type="checkbox" name="subject" value="math"> 수학<br><br>
-		<input type="checkbox" name="subject" value="art"> 미술<br><br>
-		<input type="checkbox" name="subject" value="sci"> 과학<br><br>
+		<input type="checkbox" name="subject" value="국어"> 국어<br><br>
+		<input type="checkbox" name="subject" value="영어"> 영어<br><br>
+		<input type="checkbox" name="subject" value="수학"> 수학<br><br>
+		<input type="checkbox" name="subject" value="미술"> 미술<br><br>
+		<input type="checkbox" name="subject" value="과학"> 과학<br><br>
 		<input type="submit" value="수강 신청">
 	</form>
 </body>

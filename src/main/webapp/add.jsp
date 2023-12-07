@@ -21,10 +21,8 @@
 //				out.println(session.getAttribute(title));
 			}
 		}
-		
-		
 	%>
-	
+	<a href = "list.jsp">수강신청 목록 보기</a>
 
 </body>
 </html>
