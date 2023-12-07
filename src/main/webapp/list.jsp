@@ -11,10 +11,10 @@
 	<h2>수강신청 목록</h2>
 	<hr>
 	<%
-		String sId = (String) session.getAttribute("sessionid");
+		String sid = (String) session.getAttribute("sessionid");
 		String title = "";
 
-		if (sId == null){
+		if (sid == null){
 			response.sendRedirect("login.jsp");
 		} else {
 			out.println(sid+"님 로그인 중"+"<br>");
